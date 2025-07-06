@@ -6,27 +6,49 @@ st.set_page_config(page_title="📚 Learn Data Engineering", page_icon=":books:"
 # App title
 st.title("📚 Learn Data Engineering (Beginner App)")
 
+st.markdown("""
+Welcome to your beginner-friendly Data Engineering course!  
+Use the menu on the left to pick a lesson and start learning.
+""")
+
 # Sidebar for navigation
 st.sidebar.title("📂 Lessons")
 
-# Define lessons
+# Define real lessons
 lessons = {
-    "Intro to Data Engineering": "Data Engineering helps move data from one place to another, clean it, and store it so others can use it.",
-    "Databases & SQL": "Databases store data in tables; SQL is a language to query data (e.g., SELECT * FROM users).",
-    "Data Pipelines": "Pipelines move data automatically on a schedule. Tools: Airflow, dbt, etc.",
-    "ETL & ELT": "ETL: Extract, Transform, Load. ELT: Extract, Load, Transform. Both prepare data for analytics.",
-    "Data Warehousing": "Places like Snowflake, BigQuery, or Redshift store large volumes of clean data for analysis.",
-    "Big Data Tools": "Tools like Hadoop and Spark help process huge datasets that don't fit on one machine.",
-    "Next Steps": "Build small projects, learn Python & SQL deeply, explore cloud services (AWS, GCP, Azure)."
-}
+    "1️⃣ What is Data Engineering?": """
+**Data Engineering** is about designing, building, and maintaining systems that move, store, and process data.  
+Think of it as building the roads and bridges that data travels on.
 
-# Choose lesson
-choice = st.sidebar.radio("Select a lesson", list(lessons.keys()))
+As a data engineer you:
+- Collect data from different sources (web, databases, APIs)
+- Clean and transform it (fix errors, format it properly)
+- Store it in databases or data warehouses so analysts and data scientists can use it
+- Automate the flow using pipelines and schedulers
 
-# Show lesson content
-st.subheader(f"📖 {choice}")
-st.write(lessons[choice])
+It's one of the fastest-growing fields in tech!
+""",
 
-# Footer
-st.markdown("---")
-st.caption("Made with ❤️ using Streamlit. Edit code on GitHub to add more lessons!")
+    "2️⃣ Databases & SQL": """
+Data is usually stored in **databases**.
+
+🧩 *Relational Databases* (e.g., PostgreSQL, MySQL, SQL Server):
+- Store data in tables with rows & columns
+- Use SQL (Structured Query Language) to query data
+
+🧰 Example SQL:
+```sql
+SELECT name, email FROM customers WHERE country = 'USA';
+
+
+"3️⃣ Data Pipelines": """
+
+
+"4️⃣ ETL & ELT": """
+
+"5️⃣ Data Warehousing": """
+
+"6️⃣ Big Data Tools": """
+
+"7️⃣ Next Steps & Learning Path": """
+
