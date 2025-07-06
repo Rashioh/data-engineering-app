@@ -14,7 +14,7 @@ Use the menu on the left to pick a lesson and start learning.
 # Sidebar for navigation
 st.sidebar.title("📂 Lessons")
 
-# Define real lessons
+# Define lessons
 lessons = {
     "1️⃣ What is Data Engineering?": """
 **Data Engineering** is about designing, building, and maintaining systems that move, store, and process data.  
