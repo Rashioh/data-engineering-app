@@ -11,9 +11,7 @@ Welcome to your beginner-friendly Data Engineering course!
 Use the menu on the left to pick a lesson and start learning. 🚀
 """)
 
-# Sidebar for lesson navigation
-st.sidebar.title("📂 Lessons")
-
+# Define lessons
 lessons = {
     "1️⃣ What is Data Engineering?": """
 **Data Engineering** is about designing, building, and maintaining systems to collect, move, store, and process data.  
