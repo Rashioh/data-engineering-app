@@ -38,4 +38,4 @@ Data is usually stored in **databases**.
 
 🧰 Example SQL:
 ```sql
-SELECT name, email FROM customers WHERE country = 'USA';
+SELECT name, email FROM customers WHERE country = 'USA'; """}
