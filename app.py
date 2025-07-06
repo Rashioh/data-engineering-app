@@ -34,4 +34,4 @@ Most data is stored in **databases**.
 Example:
 ```sql
 SELECT name, email FROM users WHERE country = 'USA'; """
-
+}
