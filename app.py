@@ -23,7 +23,7 @@ As a data engineer you might:
 - Load it into warehouses
 - Automate pipelines
 - Monitor and keep data flowing
-""",
+"""},
 
     "2️⃣ Databases & SQL": """
 Most data is stored in **databases**.
@@ -33,5 +33,5 @@ Most data is stored in **databases**.
 
 Example:
 ```sql
-SELECT name, email FROM users WHERE country = 'USA';
+SELECT name, email FROM users WHERE country = 'USA'; """
 
