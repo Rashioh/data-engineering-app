@@ -52,3 +52,15 @@ SELECT name, email FROM customers WHERE country = 'USA';
 
 "7️⃣ Next Steps & Learning Path": """
 
+
+---
+
+✅ After that:
+- save → commit → push to GitHub
+- Streamlit Cloud will redeploy automatically
+
+---
+
+If you'd like,  
+**share your `app.py` here again** so I can double-check it’s all correct!  
+Would you like me to do that? 🚀
