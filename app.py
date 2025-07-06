@@ -1,3 +1,19 @@
+import streamlit as st
+
+# Page config
+st.set_page_config(page_title="📚 Learn Data Engineering", page_icon=":books:")
+
+# App title
+st.title("📚 Learn Data Engineering (Beginner App)")
+
+st.markdown("""
+Welcome to your beginner-friendly Data Engineering course!  
+Use the menu on the left to pick a lesson and start learning. 🚀
+""")
+
+# Sidebar for lesson navigation
+st.sidebar.title("📂 Lessons")
+
 lessons = {
     "1️⃣ What is Data Engineering?": """
 **Data Engineering** is about designing, building, and maintaining systems to collect, move, store, and process data.  
@@ -13,7 +29,7 @@ As a data engineer you often:
 It's a creative and high-impact field that powers data-driven decisions!
 """,
 
-"2️⃣ Databases & SQL": """
+    "2️⃣ Databases & SQL": """
 Most data lives in **databases**.
 
 🧩 *Relational Databases* (PostgreSQL, MySQL, SQL Server):
