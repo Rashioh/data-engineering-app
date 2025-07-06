@@ -39,28 +39,3 @@ Data is usually stored in **databases**.
 🧰 Example SQL:
 ```sql
 SELECT name, email FROM customers WHERE country = 'USA';
-
-
-"3️⃣ Data Pipelines": """
-
-
-"4️⃣ ETL & ELT": """
-
-"5️⃣ Data Warehousing": """
-
-"6️⃣ Big Data Tools": """
-
-"7️⃣ Next Steps & Learning Path": """
-
-
----
-
-✅ After that:
-- save → commit → push to GitHub
-- Streamlit Cloud will redeploy automatically
-
----
-
-If you'd like,  
-**share your `app.py` here again** so I can double-check it’s all correct!  
-Would you like me to do that? 🚀
